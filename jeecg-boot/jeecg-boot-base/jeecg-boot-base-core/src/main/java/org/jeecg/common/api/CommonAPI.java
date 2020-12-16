@@ -19,6 +19,8 @@ public interface CommonAPI {
     Set<String> queryUserRoles(String username);
 
 
+    
+
     /**
      * 2查询用户权限信息
      * @param username
@@ -27,7 +29,7 @@ public interface CommonAPI {
     Set<String> queryUserAuths(String username);
 
 
-    
+
     /**
      * 3根据 id 查询数据库中存储的 DynamicDataSourceModel
      *
