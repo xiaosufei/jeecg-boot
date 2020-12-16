@@ -10,6 +10,7 @@ import java.util.Set;
 
 public interface CommonAPI {
 
+
     /**
      * 1查询用户角色信息
      * @param username
