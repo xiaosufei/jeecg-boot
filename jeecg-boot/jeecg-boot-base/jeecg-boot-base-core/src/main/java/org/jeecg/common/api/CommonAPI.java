@@ -26,6 +26,8 @@ public interface CommonAPI {
      */
     Set<String> queryUserAuths(String username);
 
+
+    
     /**
      * 3根据 id 查询数据库中存储的 DynamicDataSourceModel
      *
